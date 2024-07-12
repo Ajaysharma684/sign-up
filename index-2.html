@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: rgb(253, 236, 229);
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding: 60px;
+            margin: 97px;
+
+        }
+
+        .box {
+            border: 2px solid black;
+
+            box-shadow: 20px 14px 16px 12px rgb(60, 53, 53);
+            margin: 50px;
+            padding: 30px;
+            height: 70vh;
+            width: 34vw;
+            align-items: center;
+        }
+
+        .box h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 36px;
+
+        }
+
+        form {
+            font-size: 19px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        input {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: none;
+            font-size: 16px;
+            box-shadow: 5px 5px 5px 0px rgb(0, 0, 0.2);
+        }
+        .button{
+        color: aliceblue;
+            background-color: blue;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="box">
+        <h2>Login Form</h2>
+
+        <form action="">
+            <label for="E-mail"> E-mail:</label><br>
+            <input type="text" name="E-mail" placeholder=" Enter your e-mail">
+            <br>
+
+            <label for="Password">Password:</label><br>
+            <input type="password" name="Password" placeholder="Enter your password"><br>
+            <input  class="button" type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
